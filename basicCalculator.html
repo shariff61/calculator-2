@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator with html css</h1>
+    <div class="card">
+        <div class="calc-head">
+            <input type="text" id="result" maxlength="10">
+
+        </div>
+        <div class="calc-body">
+            <div>
+                <input class="btn" type="button" value="C" onclick="DeleteMe()">
+                <input class="btn" type="button" value="+/-" onclick="calculator('+/-')">
+                <input class="btn" type="button" value="%" onclick="calculator('$')">
+                <input class="btn btn-style" type="button" value="/">
+            </div>
+
+            <div>
+                <input class="btn" type="button" value="7">
+                <input class="btn" type="button" value="8">
+                <input class="btn" type="button" value="9">
+                <input class="btn btn-style" type="button" value="*">
+            </div>
+
+            <div>
+                <input class="btn" type="button" value="4">
+                <input class="btn" type="button" value="5">
+                <input class="btn" type="button" value="6">
+                <input class="btn btn-style" type="button" value="-">
+            </div>
+
+            <div>
+                <input class="btn" type="button" value="1">
+                <input class="btn" type="button" value="2">
+                <input class="btn" type="button" value="3">
+                <input class="btn" style="background-color: yellow;" type="button" value="+">
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
